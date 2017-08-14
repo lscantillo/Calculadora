@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.uninorte.calculadora.linear">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RESULTADO"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RESULTADO"/>
+
+    <Button
+        android:id="@+id/bton7"
+        android:layout_width="108dp"
+        android:layout_height="38dp"
+        android:text="7" />
+
+    <Button
+        android:id="@+id/bton4"
+        android:layout_width="108dp"
+        android:layout_height="38dp"
+        android:text="4"
+        />
+
+    <Button
+        android:id="@+id/bton1"
+        android:layout_width="108dp"
+        android:layout_height="38dp"
+        android:text="1" />
+
+
+    <Button
+        android:id="@+id/bton8"
+        android:layout_width="108dp"
+        android:layout_height="38dp"
+        android:text="8"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:id="@+id/bton5"
+        android:layout_width="108dp"
+        android:layout_height="38dp"
+        android:text="5"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:id="@+id/bton2"
+        android:layout_width="108dp"
+        android:layout_height="38dp"
+        android:text="2"
+        android:layout_gravity="center"/>
+
+
+
+
+</LinearLayout>
